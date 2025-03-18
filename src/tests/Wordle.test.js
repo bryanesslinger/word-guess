@@ -1,4 +1,4 @@
- const {Wordle, GREEN, YELLOW, BLACK} = require("../classes/Wordle")
+import { Wordle, GREEN, YELLOW, BLACK } from "../classes/Wordle.js";
 
 describe("Wordle", () => {
     it('if guess has different number of letters than wordle, return empty array', () => {
@@ -62,6 +62,5 @@ describe("Wordle", () => {
             const result = wordle.repeatedLetterInGuess("abate", 0)
             expect(result).toEqual(false)
         })
-
     })
 })

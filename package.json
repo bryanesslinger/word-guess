@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A Wordle game",
   "main": "src/index.html",
+  "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js src/tests/Wordle.test.js",
     "start": "serve src",
     "build": "cp -r src/* build/"
   },
