@@ -6,13 +6,14 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js src/tests/Wordle.test.js",
-    "start": "serve src",
-    "build": "cp -r src/* build/"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
-    "serve": "^14.2.1"
+    "vite": "^5.1.4"
   }
 }
