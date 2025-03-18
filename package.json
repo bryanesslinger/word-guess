@@ -1,14 +1,17 @@
 {
-  "name": "wordle",
+  "name": "word-guess",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Wordle game",
+  "main": "src/index.html",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest",
+    "start": "serve src",
+    "build": "cp -r src/* build/"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "jest": "^29.7.0"
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "serve": "^14.2.1"
   }
 }
