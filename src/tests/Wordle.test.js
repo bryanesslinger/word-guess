@@ -1,4 +1,4 @@
-import { Wordle, GREEN, YELLOW, BLACK } from "../classes/Wordle.js";
+const { Wordle, GREEN, YELLOW, BLACK } = require("../classes/Wordle");
 
 describe("Wordle", () => {
     it('if guess has different number of letters than wordle, return empty array', () => {

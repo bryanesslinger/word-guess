@@ -57,4 +57,4 @@ class Wordle {
   }
 }
 
-export { Wordle, GREEN, YELLOW, BLACK };
+module.exports = { Wordle, GREEN, YELLOW, BLACK };
