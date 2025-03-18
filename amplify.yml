@@ -11,6 +11,7 @@ frontend:
     baseDirectory: src
     files:
       - '**/*'
+      - '!node_modules/**/*'
   cache:
     paths:
       - node_modules/**/* 
